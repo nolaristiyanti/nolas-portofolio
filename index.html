@@ -133,7 +133,7 @@
                     <a class="nav-link" href="#work">Work</a>
                 </nav>
 
-                <a class="hidden lg:block btn btn-primary" href="#cv">Download CV</a>
+                <a class="hidden lg:block btn btn-primary" href="https://drive.google.com/file/d/1ZsRR-tOO2Pk3bWHmxHCmT3IjEBk-354c/view?usp=sharing" target="_blank">Download CV</a>
 
                 <details class="relative ml-auto group lg:hidden">
                     <summary class="list-none cursor-pointer p-2 rounded-lg hover:border-1 hover:border-indigo-600" aria-label="Toggle menu">
@@ -141,7 +141,7 @@
                         <div class="hidden text-2xl group-open:block">✕</div>
                     </summary>
                     
-                    <div class="absolute right-0 mt-3 w-56 rounded-lg shadow-xl p-3">
+                    <div class="absolute right-0 mt-3 w-56 rounded-lg shadow-xl p-3 bg-white z-50">
                         <nav class="flex flex-col gap-3">
                             <a class="nav-link" href="#home">Home</a>
                             <a class="nav-link" href="#about">About</a>
@@ -151,7 +151,7 @@
 
                         <div class="line-divider my-4"></div>
 
-                        <a class="btn btn-primary w-full" href="#cv">Download CV</a>
+                        <a class="btn btn-primary w-full" href="https://drive.google.com/file/d/1ZsRR-tOO2Pk3bWHmxHCmT3IjEBk-354c/view?usp=sharing" target="_blank">Download CV</a>
                     </div>
                 </details>
             </div>
@@ -159,71 +159,89 @@
     </header>
 
     <main>
-        <section id="home">
+       <section id="home">
             <div class="section-container section">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                    <div class="col-span-8">
+                <div class="grid grid-cols-1 lg:grid-cols-15 gap-6 lg:gap-5 items-stretch">
+
+                    <!-- LEFT -->
+                    <div class="lg:col-span-9 h-full flex flex-col">
                         <div>
                             <p class="badge mb-4">Hey there, I am</p>
                             <h1 class="h1 mb-4">Nola Ristiyanti</h1>
                             <p class="sub-h1 mb-4">Software Developer</p>
-                            <p class="max-w-xl p-h1 mb-12">
-                                A naturally curious developer who likes building useful things from real-world observations. 
-                                I like turning small problems into clean systems and useful apps.
+                            <p class="p-h1 mb-12">
+                                I build reliable backend systems and scalable APIs for modern applications.
+                                Focused on clean architecture, maintainable code, and turning real-world problems into efficient, production-ready solutions.
                             </p>
                         </div>
 
                         <div class="flex gap-3 mb-10">
-                            <a class="btn btn-primary" href="#contact">Contact Me</a>
-                            <a class="btn btn-ghost" href="#about">View Projects</a>
+                            <a class="btn btn-primary" href="#about">Contact Me</a>
+                            <a class="btn btn-ghost" href="#work">View Projects</a>
                         </div>
                         
-                        <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
-                            <div class="card-muted card-body sm:col-span-1">
+                        <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center sm:justify-start">
+                            <div class="card-muted card-body w-full sm:w-fit min-w-[140px]">
                                 <p class="p-header mb-2">Experience</p>
                                 <p class="p-detail">3+ yrs</p>
                             </div>
 
-                            <div class="card-muted card-body sm:col-span-1">
+                            <div class="card-muted card-body w-full sm:w-fit min-w-[140px]">
                                 <p class="p-header mb-2">Projects</p>
-                                <dd class="p-detail">10+</dd>
+                                <p class="p-detail">10+</p>
                             </div>
 
-                            <div class="card-muted card-body sm:col-span-2">
+                            <div class="card-muted card-body w-full sm:w-fit min-w-[160px]">
                                 <p class="p-header mb-2">Core Expertise</p>
-                                <p class="p-detail">Backend & API Development</p>
+                                <p class="p-detail whitespace-nowrap">Backend & APIs</p>
                             </div>
+
                         </div>
                     </div>
-
-                    <div class="lg:col-span-4">
-                        <div class="mx-auto lg:ml-auto max-w-md mb-4">
+                    <!-- RIGHT -->
+                    <div class="lg:col-span-6 h-full">
+                        <div class="
+                            w-full max-w-[260px] sm:max-w-xs
+                            mx-auto
+                            lg:ml-auto lg:mr-0 lg:max-w-sm
+                            mb-4
+                        ">
                             <div class="rounded-3xl border border-slate-200 bg-white shadow-sm overflow-hidden">
                                 <img 
-                                    src="assets/upscalemedia-transformed.jpeg" alt="Nola photo" 
+                                    src="assets/upscalemedia-transformed.jpeg" 
+                                    alt="Nola photo" 
                                     class="w-full aspect-[4/5] object-cover object-center 
                                     transition duration-500 ease-out hover:scale-105"/>
                             </div>
                         </div>
 
-                        <div class="rounded-3xl border border-white/10 bg-black/80 p-4 shadow-2xl
-                        ransition-transform duration-500 ease-out rotate-2 hover:rotate-0">
+                        <div class="
+                            w-full max-w-[300px] sm:max-w-xs
+                            mx-auto
+                            lg:ml-auto lg:mr-0 lg:max-w-sm
+                            rounded-3xl border border-white/10 bg-black/80 p-4 shadow-2xl
+                            transition-transform duration-500 ease-out 
+                            lg:rotate-2 lg:hover:rotate-0
+                        ">
                             <div class="flex gap-3 mb-3">
                                 <span class="h-3 w-3 rounded-full bg-red-500"></span>
                                 <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
                                 <span class="h-3 w-3 rounded-full bg-green-500"></span>
                             </div>
+
                             <div class="font-mono text-sm sm:text-base space-y-1">
                                 <p>
                                     <span class="text-cyan-400">$</span>
                                     <span class="text-slate-400"> focus:</span>
                                     <span class="text-white"> systems</span>
                                 </p>
+
                                 <p>
                                     <span class="text-cyan-400">$</span>
                                     <span class="text-slate-400"> building:</span>
                                     <span class="text-white"> APIs</span>
                                 </p>
+
                                 <p>
                                     <span class="text-cyan-400">$</span>
                                     <span class="text-slate-400"> status:</span>
@@ -241,71 +259,96 @@
 
         <section id="about" class="bg-slate-50">
             <div class="section-container section">
-                <div class="grid grid-cols-1 lg:grid-cols-6 gap-10">
-                    <div class="col-span-3">
+                <div class="grid grid-cols-1 lg:grid-cols-15 gap-6 lg:gap-5">
+
+                    <!-- LEFT -->
+                    <div class="lg:col-span-8 h-full flex flex-col justify-between">
                         <p class="section-title mb-3">ABOUT ME</p>
-                        <h2 class="h2">Build better systems, ship faster</h2>
+                        <h2 class="h2">Build reliable systems, deliver scalable solutions</h2>
+                        
                         <p class="p-h2 mb-8">
-                            I build reliable backend services and clean REST APIs—turning requirements into scalable features with Java and SQL.
+                            I specialize in backend development, building clean and scalable systems. 
+                            Currently expanding into fullstack and exploring modern web technologies.
                         </p>
 
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div class="card card-body bg-white">
                                 <p class="p-title mb-2">Backend Services</p>
-                                <p class="p-desc">Designing modular services, business logic, and maintainable architecture.</p>
+                                <p class="p-desc">
+                                    Designing modular services, structured business logic, and maintainable system architecture.
+                                </p>
                             </div>
 
                             <div class="card card-body bg-white">
                                 <p class="p-title mb-2">REST APIs & Databases</p>
-                                <p class="p-desc">Building secure APIs and efficient queries for consistent performance.</p>
+                                <p class="p-desc">
+                                    Developing secure APIs and efficient data handling for consistent and scalable performance.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="card card-body col-span-3 bg-white flex flex-col h-full relative overflow-hidden isolate">
-                        <p class="text-sm font-semibold text-slate-900">Connect With Me</p>
-                        <p class="mt-3 text-slate-600">
-                            Open for freelance projects and long-term collaborations.
-                        </p>
 
-                        <div class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-emerald-600 bg-emerald-50 px-3 py-1.5 rounded-full w-fit">
-                            <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
-                            Currently Available
+                    <!-- RIGHT -->
+                    <div class="lg:col-span-7">
+                        <div class="card card-body bg-white flex flex-col h-full relative overflow-hidden isolate p-4">
+
+                            <p class="text-sm font-semibold text-slate-900">Connect With Me</p>
+                            
+                            <p class="mt-3 text-slate-600">
+                                Open for freelance projects and long-term collaborations.
+                            </p>
+
+                            <div class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-emerald-600 bg-emerald-50 px-3 py-1.5 rounded-full w-fit">
+                                <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+                                Currently Available
+                            </div>
+
+                            <div class="line-divider my-6"></div>
+
+                            <div id="contact" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                
+                                <a class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                                    <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50 pointer-events-auto">
+                                        <img src="assets/email.png" class="h-5 w-5" alt="email">
+                                    </span>
+                                    <span class="text-sm font-semibold break-all">
+                                        nolaristiyanti@gmail.com
+                                    </span>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nola-ristiyanti/" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                                    <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                        <img src="assets/linkedin.png" class="h-5 w-5" alt="linkedin">
+                                    </span>
+                                    <span class="text-sm font-semibold">
+                                        Nola Ristiyanti
+                                    </span>
+                                </a>
+
+                                <a href="https://wa.me/6287896783709" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                                    <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                        <img src="assets/phone-call.png" class="h-5 w-5" alt="phone">
+                                    </span>
+                                    <span class="text-sm font-semibold">
+                                        +62 878 9678 3709
+                                    </span>
+                                </a>
+
+                                <a href="https://github.com/nolaristiyanti" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                                    <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                        <img src="assets/github.png" class="h-5 w-5" alt="github">
+                                    </span>
+                                    <span class="text-sm font-semibold">
+                                        nolaristiyanti
+                                    </span>
+                                </a>
+
+                            </div>
+
+                            <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
                         </div>
-
-                        <div class="line-divider my-auto"></div>
-                        
-                        <div id="contact" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <a href="#" class="flex items-center gap-2 p-2 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
-                                    <img src="assets/email.png" class="h-5 w-5" alt="email">
-                                </span>
-                                <span class="text-left text-sm font-semibold">nolaristiyanti@gmail.com</span>
-                            </a>
-
-                            <a href="#" class="flex items-center gap-2 p-2 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
-                                    <img src="assets/linkedin.png" class="h-5 w-5" alt="email">
-                                </span>
-                                <span class="text-left  text-sm font-semibold">Nola Ristiyanti</span>
-                            </a>
-
-                            <a href="#" class="flex items-center gap-2 p-2 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
-                                    <img src="assets/phone-call.png" class="h-5 w-5" alt="email">
-                                </span>
-                                <span class="text-left  text-sm font-semibold">+62 878 9678 3709</span>
-                            </a>
-
-                            <a href="#" class="flex items-center gap-2 p-2 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
-                                <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
-                                    <img src="assets/github.png" class="h-5 w-5" alt="email">
-                                </span>
-                                <span class="text-left  text-sm font-semibold">nolaristiyanti</span>
-                            </a>
-                        </div>
-
-                        <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full blur-3xl opacity-40 -z-10 pointer-events-none"></div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -458,10 +501,10 @@
 
                             <div class="flex items-center rounded-2xl border border-gray-200 bg-white px-4 py-2 transition hover:border-indigo-400 hover:shadow-md">
                                 <span class="inline-flex items-center justify-center w-8 h-8 bg-tailkit-card-icon-primary rounded-lg">
-                                    <img src="assets/jenkins.png" class="h-5 w-5" alt="c">
+                                    <img src="assets/laragon.png" class="h-5 w-5" alt="c">
                                 </span>
                                 <span class="text-lg font-semibold text-gray-700">
-                                    Jenkins
+                                    Laragon
                                 </span>
                             </div>
 
@@ -485,10 +528,10 @@
                             
                             <div class="flex items-center rounded-2xl border border-gray-200 bg-white px-4 py-2 transition hover:border-indigo-400 hover:shadow-md">
                                 <span class="inline-flex items-center justify-center w-8 h-8 bg-tailkit-card-icon-primary rounded-lg">
-                                    <img src="assets/kibana-svgrepo-com.png" class="h-5 w-5" alt="c">
+                                    <img src="assets/mysql-workbench.png" class="h-5 w-5" alt="c">
                                 </span>
                                 <span class="text-lg font-semibold text-gray-700">
-                                    Kibana
+                                    Mysql workbench
                                 </span>
                             </div>
                         </div>
@@ -616,7 +659,23 @@
                                 </span>
                             </div>
 
-                            
+                            <div class="flex items-center rounded-2xl border border-gray-200 bg-white px-4 py-2 transition hover:border-indigo-400 hover:shadow-md">
+                                <span class="inline-flex items-center justify-center w-8 h-8 bg-tailkit-card-icon-primary rounded-lg">
+                                    <img src="assets/laravel.png" class="h-5 w-5" alt="c">
+                                </span>
+                                <span class="text-lg font-semibold text-gray-700">
+                                    Laravel
+                                </span>
+                            </div>
+
+                            <div class="flex items-center rounded-2xl border border-gray-200 bg-white px-4 py-2 transition hover:border-indigo-400 hover:shadow-md">
+                                <span class="inline-flex items-center justify-center w-8 h-8 bg-tailkit-card-icon-primary rounded-lg">
+                                    <img src="assets/react.png" class="h-5 w-5" alt="c">
+                                </span>
+                                <span class="text-lg font-semibold text-gray-700">
+                                    React
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -635,6 +694,69 @@
                 <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     <article class="card group transition-all duration-300 ease-out hover:-translate-y-1 hover:border-indigo-400 hover:shadow-lg">
                         <div class="relative overflow-hidden rounded-t-2xl aspect-[16/9]">
+                            <img class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
+                                src="assets/ss-apis.png" alt="apis" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-base font-extrabold text-slate-900 mb-2">Digital Product Marketplace API</h3>
+                            <p class="text-sm text-slate-600 mb-2">Laravel RESTful Service.</p>
+
+                            <a href="#modal-apis"
+                                class="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5
+                                        text-sm font-semibold text-slate-700 shadow-sm transition
+                                        hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700
+                                        hover:gap-2">
+                                View details <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card group transition-all duration-300 ease-out hover:-translate-y-1 hover:border-indigo-400 hover:shadow-lg">
+                        <div class="relative overflow-hidden rounded-t-2xl aspect-[16/9]">
+                            <img class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
+                                src="assets/erd.png" alt="lms database" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-base font-extrabold text-slate-900 mb-2">LMS Data Architecture Project</h3>
+                            <p class="text-sm text-slate-600 mb-2">Building Structured Data Systems with MySQL.</p>
+
+                            <a href="#modal-mysql"
+                                class="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5
+                                        text-sm font-semibold text-slate-700 shadow-sm transition
+                                        hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700
+                                        hover:gap-2">
+                                View details <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card group transition-all duration-300 ease-out hover:-translate-y-1 hover:border-indigo-400 hover:shadow-lg">
+                        <div class="relative overflow-hidden rounded-t-2xl aspect-[16/9]">
+                            <img class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
+                                src="assets/ss-nolas-portofolio.jpeg" alt="nolas-portofolio" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-base font-extrabold text-slate-900 mb-2">Nola's Portofolio</h3>
+                            <p class="text-sm text-slate-600 mb-2">Design. Build. Refine.</p>
+
+                            <a href="#modal-portofolio"
+                                class="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5
+                                        text-sm font-semibold text-slate-700 shadow-sm transition
+                                        hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700
+                                        hover:gap-2">
+                                View details <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card group transition-all duration-300 ease-out hover:-translate-y-1 hover:border-indigo-400 hover:shadow-lg">
+                        <div class="relative overflow-hidden rounded-t-2xl aspect-[16/9]">
                             <img class="w-full h-full object-cover transition duration-500 group-hover:scale-[1.03]"
                                 src="assets/tailkit.png" alt="tailkit" />
                             <div class="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
@@ -644,7 +766,7 @@
                             <h3 class="text-base font-extrabold text-slate-900 mb-2">Tailkit</h3>
                             <p class="text-sm text-slate-600 mb-2">Build Faster with Tailwind.</p>
 
-                            <a href="#"
+                            <a href="#modal-tailkit"
                                 class="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5
                                         text-sm font-semibold text-slate-700 shadow-sm transition
                                         hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700
@@ -665,7 +787,7 @@
                             <h3 class="text-base font-extrabold text-slate-900 mb-2">Solocode</h3>
                             <p class="text-sm text-slate-600 mb-2">Learn to Code with Confidence.</p>
 
-                            <a href="#"
+                            <a href="#modal-solocode"
                                 class="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5
                                         text-sm font-semibold text-slate-700 shadow-sm transition
                                         hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700
@@ -791,20 +913,33 @@
                     <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
                         <li>System analysis & requirement definition</li>
                         <li>Fuzzy algorithm design & implementation</li>
-                        <li>Web app development (PHP, HTML, CSS)</li>
+                        <li>Web app development : PHP, HTML, CSS (Bootstrap), MySQL</li>
                         <li>System testing & validation with pediatric expert</li>
                     </ul>
                     </section>
 
                     <section>
-                    <h4 class="text-sm font-bold text-slate-900">Process</h4>
-                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
-                        <li>Researched DSM-5 ADHD criteria and behavioral indicators.</li>
-                        <li>Designed fuzzy membership functions and rule base.</li>
-                        <li>Implemented web-based questionnaire and scoring logic.</li>
-                        <li>Conducted alpha testing, usability testing, and expert validation.</li>
-                    </ul>
+                        <h4 class="text-sm font-bold text-slate-900">Process</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Researched DSM-5 ADHD criteria and behavioral indicators.</li>
+                            <li>Designed fuzzy membership functions and rule base.</li>
+                            <li>Implemented web-based questionnaire and scoring logic.</li>
+                            <li>Conducted alpha testing, usability testing, and expert validation.</li>
+                        </ul>
                     </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/tes-adhd" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/tes-adhd
+                            </span>
+                        </a>
+                    </section>
+
                 </div>
             </div>
 
@@ -817,7 +952,460 @@
                 Open Project
             </a>
         </div> -->
-     </div>
-</div>
+        </div>
+    </div>
+
+    <div id="modal-solocode" class="modal fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <a href="#works" class="absolute inset-0" aria-label="Close modal"></a>
+        <div class="relative w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5 overflow-hidden">
+            <div class="flex items-start justify-between gap-4 border-b border-slate-200 px-6 py-4">
+                <div>
+                    <h3 class="text-base font-extrabold text-slate-900">Solocode</h3>
+                    <p class="mt-1 text-sm text-slate-600">Responsive landing page for a coding learning platform</p>
+                </div>
+
+                <a href="#works" class="inline-flex h-10 w-10 items-center justify-center rounded-xl hover:bg-slate-100 transition" aria-label="Close modal">
+                    ✕
+                </a>
+            </div>
+
+            <div class="max-h-[70vh] overflow-y-auto px-6 py-5">
+                <div class="space-y-6">
+                    <img src="assets/ss-solocode.jpeg" alt="result">
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Description</h4>
+                        <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                            A responsive landing page for a Learning Management System, built from scratch using semantic HTML and modern CSS. 
+                            Focused on clean layout structure, reusable components, and responsive design across devices.
+                        </p>
+                    </section>
+
+                    <section>
+                    <h4 class="text-sm font-bold text-slate-900">What I Did</h4>
+                    <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                        <li>Built full landing page structure using semantic HTML5</li>
+                        <li>Designed responsive layout using CSS Flexbox & Grid</li>
+                        <li>Implemented reusable and maintainable CSS structure</li>
+                        <li>Ensured accessibility basics (alt text, heading hierarchy, contrast)</li>
+                        <li>Applied hover & focus states for better user experience</li>
+                    </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Key Focus</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Layouting fundamentals (no framework).</li>
+                            <li>Clean UI structure.</li>
+                            <li>Responsive design (mobile → desktop).</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Tech Stack</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>HTML5.</li>
+                            <li>CSS3.</li>
+                            <li>Vanilla JavaScript.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Result</h4>
+                        <p class="text-sm text-slate-600">
+                            Successfully translated a design prototype into a fully functional and responsive landing page, strengthening core frontend fundamentals without relying on frameworks.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/solocode-learning-management-system" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/solocode-learning-management-system
+                            </span>
+                        </a>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-3 border-t border-slate-200 px-6 py-4"></div>
+        </div>
+    </div>
+
+    <div id="modal-tailkit" class="modal fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <a href="#works" class="absolute inset-0" aria-label="Close modal"></a>
+        <div class="relative w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5 overflow-hidden">
+            <div class="flex items-start justify-between gap-4 border-b border-slate-200 px-6 py-4">
+                <div>
+                    <h3 class="text-base font-extrabold text-slate-900">Tailkit</h3>
+                    <p class="mt-1 text-sm text-slate-600">Responsive digital product marketplace built with Tailwind CSS</p>
+                </div>
+
+                <a href="#works" class="inline-flex h-10 w-10 items-center justify-center rounded-xl hover:bg-slate-100 transition" aria-label="Close modal">
+                    ✕
+                </a>
+            </div>
+
+            <div class="max-h-[70vh] overflow-y-auto px-6 py-5">
+                <div class="space-y-6">
+                    <img src="assets/ss-tailkit.jpeg" alt="result">
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Description</h4>
+                        <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                            A responsive digital product marketplace interface built using Tailwind CSS, focused on fast UI development, consistent styling, and scalable layout across devices.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">What I Did</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Extended previous project into a multi-page marketplace.</li>
+                            <li>Built new pages using Tailwind CSS utilities.</li>
+                            <li>Implemented responsive layout (mobile → desktop).</li>
+                            <li>Structured consistent navigation across pages.</li>
+                            <li>Applied modern UI styling (spacing, typography, shadows, states).</li>
+                        </ul>
+                    </section>
+ 
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Key Focus</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Utility-first CSS (Tailwind).</li>
+                            <li>Rapid UI development.</li>
+                            <li>Consistent design system.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Tech Stack</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>HTML5.</li>
+                            <li>Tailwind CSS.</li>
+                            <li>Vanilla JavaScript.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Result</h4>
+                        <p class="text-sm text-slate-600">
+                            Successfully transformed a static layout into a scalable, multi-page interface using Tailwind CSS, improving development speed and UI consistency.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/tailkit-startup-tailwind-css-templates" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/tailkit-startup-tailwind-css-templates
+                            </span>
+                        </a>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-3 border-t border-slate-200 px-6 py-4"></div>
+        </div>
+    </div>
+
+    <div id="modal-portofolio" class="modal fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <a href="#works" class="absolute inset-0" aria-label="Close modal"></a>
+        <div class="relative w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5 overflow-hidden">
+            <div class="flex items-start justify-between gap-4 border-b border-slate-200 px-6 py-4">
+                <div>
+                    <h3 class="text-base font-extrabold text-slate-900">Nola's Portofolio</h3>
+                    <p class="mt-1 text-sm text-slate-600">Personal Developer Portfolio Website</p>
+                </div>
+
+                <a href="#works" class="inline-flex h-10 w-10 items-center justify-center rounded-xl hover:bg-slate-100 transition" aria-label="Close modal">
+                    ✕
+                </a>
+            </div>
+
+            <div class="max-h-[70vh] overflow-y-auto px-6 py-5">
+                <div class="space-y-6">
+                    <img src="assets/ss-nolas-portofolio.jpeg" alt="result">
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Description</h4>
+                        <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                            A responsive personal portfolio website built using Tailwind CSS. This project is designed to showcase personal projects, skills, and experience with a clean, modern, and responsive interface across all devices.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">What I Did</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Built a personal portfolio website from scratch using Tailwind CSS.</li>
+                            <li>Designed and implemented a clean multi-section layout (Hero, About, Projects, Contact).</li>
+                            <li>Developed responsive design for mobile, tablet, and desktop screens.</li>
+                            <li>Structured reusable UI components for consistency across sections.</li>
+                            <li>Implemented smooth navigation and modern UI styling (spacing, typography, hover states).</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Key Focus</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Utility-first CSS approach using Tailwind CSS.</li>
+                            <li>Responsive and mobile-first design implementation.</li>
+                            <li>Clean UI/UX with modern layout principles.</li>
+                            <li>Scalable and maintainable component structure.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Tech Stack</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>HTML5.</li>
+                            <li>Tailwind CSS.</li>
+                            <li>Vanilla JavaScript.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Result</h4>
+                        <p class="text-sm text-slate-600">
+                            Successfully built a responsive personal portfolio website that presents projects and skills in a structured and visually clean interface, optimized for both readability and scalability.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/nolas-portofolio" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/nolas-portofolio
+                            </span>
+                        </a>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-3 border-t border-slate-200 px-6 py-4"></div>
+        </div>
+    </div>
+
+    <div id="modal-mysql" class="modal fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <a href="#works" class="absolute inset-0" aria-label="Close modal"></a>
+        <div class="relative w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5 overflow-hidden">
+            <div class="flex items-start justify-between gap-4 border-b border-slate-200 px-6 py-4">
+                <div>
+                    <h3 class="text-base font-extrabold text-slate-900">LMS Data Architecture Project</h3>
+                    <p class="mt-1 text-sm text-slate-600">Database Design & SQL Implementation for LMS</p>
+                </div>
+
+                <a href="#works" class="inline-flex h-10 w-10 items-center justify-center rounded-xl hover:bg-slate-100 transition" aria-label="Close modal">
+                    ✕
+                </a>
+            </div>
+
+            <div class="max-h-[70vh] overflow-y-auto px-6 py-5">
+                <div class="space-y-6">
+                    <img src="assets/erd.png" alt="result">
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Description</h4>
+                        <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                            A database-focused mini project designed to demonstrate understanding of relational database design and SQL fundamentals using a Learning Management System (LMS) case study. 
+                            The project covers ERD modeling, MySQL schema design, data manipulation, and complex query operations including joins and aggregation.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">What I Did</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Designed an Entity Relationship Diagram (ERD) for a simple LMS system.</li>
+                            <li>Defined primary keys, relationships, and cardinality between tables.</li>
+                            <li>Converted the ERD into a MySQL database schema using DDL (CREATE DATABASE, CREATE TABLE).</li>
+                            <li>Implemented proper constraints including PK, FK, NOT NULL, and data types.</li>
+                            <li>Populated database with sample data using DML (INSERT INTO with 10–15 records per table).</li>
+                            <li>Executed SQL queries ranging from basic SELECT to advanced JOIN and aggregation queries.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Key Focus</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Database design and normalization (ERD modeling).</li>
+                            <li>MySQL schema creation using DDL.</li>
+                            <li>Data manipulation using DML.</li>
+                            <li>SQL fundamentals (SELECT, WHERE, ORDER BY, LIMIT).</li>
+                            <li>Join operations (INNER JOIN, LEFT JOIN)</li>
+                            <li>Aggregate functions (COUNT, AVG, GROUP BY, HAVING)</li>
+                            <li>Conditional logic in SQL queries</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">SQL Topics Covered</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Basic Queries.</li>
+                            <li>Aggregate Queries.</li>
+                            <li>Join Operations.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Tech Stack</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>MySQL.</li>
+                            <li>SQL (DDL, DML, DQL).</li>
+                            <li>Database Design (ERD Modeling).</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Result</h4>
+                        <p class="text-sm text-slate-600">
+                            Successfully designed and implemented a relational database for an LMS case study, demonstrating strong understanding of SQL fundamentals, relational modeling, and query optimization techniques from basic operations to advanced joins and aggregation.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/lms-mini-project-database" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/lms-mini-project-database
+                            </span>
+                        </a>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-3 border-t border-slate-200 px-6 py-4"></div>
+        </div>
+    </div>
+
+    <div id="modal-apis" class="modal fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <a href="#works" class="absolute inset-0" aria-label="Close modal"></a>
+        <div class="relative w-full max-w-3xl rounded-2xl bg-white shadow-xl ring-1 ring-black/5 overflow-hidden">
+            <div class="flex items-start justify-between gap-4 border-b border-slate-200 px-6 py-4">
+                <div>
+                    <h3 class="text-base font-extrabold text-slate-900">Digital Product Marketplace API</h3>
+                    <p class="mt-1 text-sm text-slate-600">Backend API Development for Digital Marketplace</p>
+                </div>
+
+                <a href="#works" class="inline-flex h-10 w-10 items-center justify-center rounded-xl hover:bg-slate-100 transition" aria-label="Close modal">
+                    ✕
+                </a>
+            </div>
+
+            <div class="max-h-[70vh] overflow-y-auto px-6 py-5">
+                <div class="space-y-6">
+                    <img src="assets/ss-apis.png" alt="result">
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Description</h4>
+                        <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                            A scalable RESTful API built using Laravel to manage a digital product marketplace system. 
+                            This project extends a previously designed database system and implements full CRUD operations, authentication, validation, caching, and advanced query handling. 
+                            The API is designed to be tested using Postman.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">What I Did</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Built a RESTful API using Laravel to manage products, categories, and users in a digital marketplace system.</li>
+                            <li>Implemented full CRUD operations for products and categories with proper relational database integration.</li>
+                            <li>Integrated authentication and authorization using Laravel Sanctum to secure protected endpoints.</li>
+                            <li>Designed structured JSON responses for both success and error handling.</li>
+                            <li>Applied input validation on all create and update requests to ensure data integrity.</li>
+                            <li>Extended functionality with filtering, searching, sorting, and rating classification logic.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Key Focus</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>RESTful API development using Laravel.</li>
+                            <li>CRUD operations with relational database integration.</li>
+                            <li>Authentication & Authorization (Laravel Sanctum).</li>
+                            <li>Input validation & error handling.</li>
+                            <li>Clean and consistent JSON response structure.</li>
+                            <li>Advanced query handling (filter, search, sorting)</li>
+                            <li>API testing using Postman</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Tech Stack</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Laravel.</li>
+                            <li>PHP.</li>
+                            <li>MySQL.</li>
+                            <li>Laravel Sanctum</li>
+                            <li>Postman</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">API Features</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Authentication.</li>
+                            <li>Products API.</li>
+                            <li>Categories API.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Advanced Features</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Filtering & Search.</li>
+                            <li>Sorting.</li>
+                            <li>Rating Classification.</li>
+                            <li>Caching (Performance Optimization)</li>
+                            <li>Advanced Queries</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Security & System Design</h4>
+                        <ul class="mt-2 list-disc pl-5 text-sm text-slate-600 space-y-1">
+                            <li>Password hashing using bcrypt.</li>
+                            <li>Middleware-based route protection.</li>
+                            <li>Global error handling (400, 401, 404, 500).</li>
+                            <li>Role-based access control (seller / buyer)</li>
+                            <li>Consistent API response format (success/error)</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Result</h4>
+                        <p class="text-sm text-slate-600">
+                            Successfully developed a secure and scalable REST API for a digital product marketplace using Laravel. 
+                            The system supports authentication, full CRUD operations, advanced querying, caching, and structured API responses, demonstrating strong backend development and database integration skills.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-sm font-bold text-slate-900">Link Source Code</h4>
+                        <a href="https://github.com/nolaristiyanti/marketplace-digital-rest-api" target="_blank" class="flex items-center p-1 rounded-2xl border border-gray-200 hover:bg-gray-50 transition">
+                            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-50">
+                                <img src="assets/github.png" class="h-5 w-5" alt="linkedin">
+                            </span>
+                            <span class="text-sm font-semibold">
+                                https://github.com/nolaristiyanti/marketplace-digital-rest-api
+                            </span>
+                        </a>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-3 border-t border-slate-200 px-6 py-4"></div>
+        </div>
+    </div>
 </body>
 </html>
